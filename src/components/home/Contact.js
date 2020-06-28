@@ -13,12 +13,13 @@ class Contact extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
+        e.target.reset()
         this.props.addDetails(this.state)
     }
 
     handleChange = (e) => {
         this.setState({
-            [e.target.id]: [e.target.value]
+            [e.target.id]: [e.target.value],
         })
     }
 
