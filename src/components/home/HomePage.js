@@ -11,8 +11,8 @@ const HomePage = () => {
             <div class="center-align">
                 <h4>Welcome to the Pup Bundle family!</h4>
                 <h6>We are pawsitively thrilled to have you here! Now sit back and enjoy, let us take care of your pet.</h6>
-
             </div>
+
             <div className="container section">
                 <div className="row" style={{ marginTop: '40px' }}>
                     <div className="col l4">
@@ -98,5 +98,3 @@ const mainImgStyle = {
 }
 
 export default HomePage
-
-

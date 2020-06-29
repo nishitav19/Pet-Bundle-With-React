@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav>
             <div className="nav-wrapper grey darken-4">
                 <div className="container">
-                    <Link to='/' className="brand-logo">The Pup Bundle</Link>
+                    <Link to='/' className="brand-logo hide-on-med-and-down">Pup Bundle</Link>
                     <ul className="right">
                         <li><Link to='/'>About</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
@@ -18,5 +18,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
