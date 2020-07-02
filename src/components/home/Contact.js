@@ -31,17 +31,17 @@ class Contact extends Component {
                         <form onSubmit={this.handleSubmit}>
                             <div className="input-field">
                                 <i className="material-icons prefix">account_circle</i>
-                                <input type="text" id="name" onChange={this.handleChange} />
+                                <input type="text" id="name" onChange={this.handleChange} required />
                                 <label>Name</label>
                             </div>
                             <div className="input-field">
                                 <i className="material-icons prefix">phone</i>
-                                <input type="tel" id="tel" onChange={this.handleChange} />
+                                <input type="tel" id="tel" onChange={this.handleChange} required />
                                 <label>Phone</label>
                             </div>
                             <div className="input-field">
                                 <i className="material-icons prefix">email</i>
-                                <input type="email" id="email" onChange={this.handleChange} />
+                                <input type="email" id="email" onChange={this.handleChange} required />
                                 <label>Your Email</label>
                             </div>
                             <div className="input-field">
