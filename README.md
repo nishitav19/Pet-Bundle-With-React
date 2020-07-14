@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pet-Bundle
+
+## Screenshots
+
+![home](./img/home.png)
+![contact](./img/contact.png)
 
 ## Available Scripts
 
